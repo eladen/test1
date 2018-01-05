@@ -1,6 +1,5 @@
 $(document).ready(function() {
     /* when form is submitted */
-    alert("asdasd");
     $('.form').submit(function(){
       $('#res').html(" "); // set innerHtml of res div as blank
       callWikipedia();
